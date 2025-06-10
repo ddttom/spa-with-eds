@@ -54,14 +54,15 @@ spa-with-eds/
 
 ### Installation
 
-1. Clone the repository:
+1. Set up your EDS environment according to Adobe's documentation
+
+
+2. Clone the repository:
    ```bash
    git clone https://github.com/ddttom/spa-with-eds.git
    cd spa-with-eds
    # copy the blocks/slide-builder folder to your EDS repo, and push.
    ```
-
-2. Set up your EDS environment according to Adobe's documentation
 
 3. Configure your content structure:
    - Create slide pages in your Google Drive

@@ -58,6 +58,7 @@ spa-with-eds/
    ```bash
    git clone https://github.com/ddttom/spa-with-eds.git
    cd spa-with-eds
+   # copy the blocks/slide-builder folder to your EDS repo, and push.
    ```
 
 2. Set up your EDS environment according to Adobe's documentation
@@ -92,6 +93,9 @@ A responsive slide gallery component that demonstrates:
 - **Responsive**: Mobile-first design with desktop enhancements
 
 See [`blocks/slide-builder/README.md`](blocks/slide-builder/README.md) for detailed documentation.
+
+Blog post https://allabout.network/blogs/ddt/integrations/building-headless-applications-with-edge-delivery-services
+
 
 ## 🔧 Configuration
 

@@ -1,4 +1,4 @@
-# SPA with Adobe Edge Delivery Services
+# SPA with Adobe Edge Delivery Services TUTORIAL
 
 A lightweight, high-performance Single Page Application built with vanilla JavaScript and modern ES modules for Adobe Edge Delivery Services (EDS). This project demonstrates how to build dynamic, interactive experiences while maintaining excellent performance scores through modern web development practices.
 

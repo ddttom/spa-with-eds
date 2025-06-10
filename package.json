@@ -1,0 +1,96 @@
+{
+  "name": "spa-with-eds",
+  "version": "1.0.0",
+  "description": "A lightweight, high-performance Single Page Application built with vanilla JavaScript and modern ES modules for Adobe Edge Delivery Services (EDS)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js --fix",
+    "lint:check": "eslint . --ext .js",
+    "lint:md": "markdownlint \"**/*.md\" --config .markdownlint.json",
+    "lint:md:fix": "markdownlint \"**/*.md\" --config .markdownlint.json --fix",
+    "hint": "hint .",
+    "audit": "npm audit --audit-level=moderate",
+    "security": "npm audit && npx audit-ci --moderate",
+    "validate": "npm run lint:check && npm run lint:md && npm run hint",
+    "dev": "echo 'This is a vanilla JavaScript project. Open your HTML files directly in a browser or use a simple HTTP server.'",
+    "serve": "npx http-server . -p 3000 -c-1",
+    "test": "echo 'Tests should be run in browsers. Use npm run serve to start a local server.'",
+    "prepare": "echo 'Setting up development environment...'",
+    "precommit": "npm run validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddttom/spa-with-eds.git"
+  },
+  "keywords": [
+    "adobe-eds",
+    "edge-delivery-services",
+    "vanilla-javascript",
+    "spa",
+    "performance",
+    "es-modules",
+    "web-components",
+    "progressive-enhancement",
+    "responsive-design",
+    "accessibility"
+  ],
+  "author": "Tom Cranstoun <tom.cranstoun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddttom/spa-with-eds/issues"
+  },
+  "homepage": "https://github.com/ddttom/spa-with-eds#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-security": "^2.1.1",
+    "markdownlint-cli": "^0.39.0",
+    "audit-ci": "^6.6.1",
+    "http-server": "^14.1.1",
+    "@hint/hint": "^7.1.1",
+    "@hint/configuration-web-recommended": "^8.8.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not op_mini all"
+  ],
+  "files": [
+    "blocks/",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md"
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "config": {
+    "eslint": {
+      "extends": [
+        "airbnb-base",
+        "plugin:security/recommended"
+      ],
+      "env": {
+        "browser": true,
+        "es2022": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 2022,
+        "sourceType": "module"
+      }
+    }
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/ddttom"
+  }
+}

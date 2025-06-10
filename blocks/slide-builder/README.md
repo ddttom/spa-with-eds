@@ -1,19 +1,21 @@
 # Slide Builder Block for Adobe Edge Delivery Services
 
-A headless Single Page Application component that creates a responsive slide gallery while maintaining the performance benefits of Edge Delivery Services (EDS). Built with vanilla JavaScript and no framework dependencies.
+A lightweight, responsive slide gallery component built with vanilla JavaScript and modern ES modules for Adobe Edge Delivery Services (EDS). Designed for performance and simplicity without framework dependencies.
 
-Full article here: https://allabout.network/blogs/ddt/integrations/building-headless-applications-with-edge-delivery-services
+This component demonstrates how to build dynamic, interactive experiences with EDS while maintaining excellent performance scores through modern web development practices.
 
 ## Overview
 
-This slide builder demonstrates how to build dynamic, interactive experiences with EDS while preserving perfect Lighthouse scores. It uses a content-first approach where authors create individual pages for each slide, making content management straightforward and familiar.
+This slide builder demonstrates how to build dynamic, interactive experiences with Edge Delivery Services while preserving perfect Lighthouse scores. It uses a content-first approach where authors create individual pages for each slide, making content management straightforward and familiar within the EDS ecosystem.
 
 ## Architecture Principles
 
+- **EDS Integration**: Leverages EDS query-index and .plain.html endpoints for content management
 - **Hybrid Approach**: Keep landing pages as pure EDS for perfect performance, use SPA functionality for interactive galleries
 - **Content-First**: Each slide is a full EDS page with its own URL and content
 - **Progressive Enhancement**: Mobile gets essential features, desktop receives enriched content
-- **Framework-less**: Pure vanilla JavaScript maintains simplicity and performance
+- **Framework-less**: Pure vanilla JavaScript maintains EDS simplicity and performance principles</search>
+</search_and_replace>
 
 ## Features
 
@@ -74,7 +76,8 @@ EDS automatically generates a JSON endpoint at `/slides/query-index.json`:
     }
   ]
 }
-```
+```</search>
+</search_and_replace>
 
 ## Installation
 
@@ -180,16 +183,19 @@ const firstParagraph = h2.nextElementSibling;
 ## Future Enhancements
 
 This vanilla JavaScript implementation can be extended to:
-- Product catalogues with filtering
-- Interactive galleries
-- Data visualizations
-- Framework migrations (React, Vue, Web Components)
+- Product catalogues with filtering and search
+- Interactive media galleries
+- Data visualizations and dashboards
+- Integration with modern frameworks (React, Vue, Web Components)
+- Advanced animation and transition effects
 
-## Resources
+## Development Notes
 
-- [Live Demo](https://allabout.network/blogs/ddt/five-things-to-do-do-in-york)
-- [JSON Endpoint Example](https://allabout.network/slides/query-index.json)
-- [Vue.js Implementation](https://allabout.network/blogs/ddt/integrations/building-a-vuejs-app-with-edge-delivery-services)
+This component follows modern web development best practices:
+- **ES Modules**: Clean, maintainable code organization
+- **Progressive Enhancement**: Works on all devices, enhanced on capable ones
+- **Performance-First**: Lazy loading, efficient DOM manipulation, minimal dependencies
+- **Accessibility**: Semantic HTML, keyboard navigation, screen reader support
 
 ## Summary
 
